@@ -7,15 +7,14 @@ import ImagemBrasaoL from "../Assets/lufalufaBrasao.png";
 import { Imagens } from "./style";
 import { Box } from "./style";
 import "./Home.css";
+import { Botao } from "../Components/Botao";
 
 const CardBrasoes = () => {
   return (
     <>
       <Container>
+        <p>Escolha sua casa e conheça todos os alunos que passaram por ela.</p>
         <Box>
-          <p>
-            Escolha sua casa e conheça todos os alunos que passaram por ela.
-          </p>
           <Imagens
             className="tremedeira"
             src={ImagemBrasaoG}
@@ -37,6 +36,7 @@ const CardBrasoes = () => {
             alt="Brasão da casa Lufa-Lufa"
           />
         </Box>
+        <Botao>Clique aqui</Botao>
       </Container>
     </>
   );
