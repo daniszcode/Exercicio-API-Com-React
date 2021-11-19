@@ -9,9 +9,6 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   background-color: chocolate;
-  font-family: "Shalimar", cursive;
-  font-size: 25pt;
-  font-weight: bold;
 `;
 
 export const Box = styled.div`
@@ -19,11 +16,19 @@ export const Box = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-  margin: 50px 0;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: blue;
 `;
 
 export const Imagens = styled.img`
   width: 300px;
   height: 300px;
+`;
+
+export const Titulo = styled.h1`
+  font-family: "Shalimar", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
 `;

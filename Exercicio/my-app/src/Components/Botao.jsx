@@ -1,13 +1,11 @@
-import { Personas } from "../Dados/Personagens";
-
 
 const Botao = () => {
-    const req =  Personas.map((item => {
-             return  console.log(item.name)
-    }))
+
     return (
         <>
-        <button className="button" onClick={req}> Clique aqui </button>
+        <div className="conteudo">
+        <button className="button"> Clique aqui </button>
+        </div>
         </>
     )
 }

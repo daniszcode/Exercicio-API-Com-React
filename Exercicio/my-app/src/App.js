@@ -1,4 +1,3 @@
-import "./App.css";
 import { CardBrasoes } from "./Pages/CardsDasCasas";
 
 function App() {

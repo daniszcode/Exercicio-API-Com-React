@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "./style";
+import { Container, Titulo } from "./style";
 import ImagemBrasaoG from "../Assets/grifinoriaBrasao.png";
 import ImagemBrasaoS from "../Assets/sonserinaBrasao.png";
 import ImagemBrasaoC from "../Assets/corvinalBrasao.png";
@@ -8,12 +8,15 @@ import { Imagens } from "./style";
 import { Box } from "./style";
 import "./Home.css";
 import { Botao } from "../Components/Botao";
+import { Conteudo } from "../Components/Conteudo";
 
 const CardBrasoes = () => {
   return (
     <>
       <Container>
-        <p>Escolha sua casa e conheça todos os alunos que passaram por ela.</p>
+        <Titulo>
+          Escolha sua casa e conheça todos os alunos que passaram por ela.
+        </Titulo>
         <Box>
           <Imagens
             className="tremedeira"
@@ -37,6 +40,7 @@ const CardBrasoes = () => {
           />
         </Box>
         <Botao>Clique aqui</Botao>
+        <Conteudo />
       </Container>
     </>
   );
