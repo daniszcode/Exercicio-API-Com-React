@@ -7,15 +7,15 @@ import ImagemBrasaoL from "../Assets/lufalufaBrasao.png";
 import { Imagens } from "./style";
 import { Box } from "./style";
 import "./Home.css";
-import { Botao } from "../Components/Botao";
 import { Conteudo } from "../Components/Conteudo";
+import { Botao } from "../Components/Botao";
 
 const CardBrasoes = () => {
   return (
     <>
       <Container>
         <Titulo>
-          Escolha sua casa e conheça todos os alunos que passaram por ela.
+          Escolha sua casa e conheça alguns alunos que passaram por ela.
         </Titulo>
         <Box>
           <Imagens

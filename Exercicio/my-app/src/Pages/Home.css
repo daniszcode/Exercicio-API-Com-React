@@ -78,8 +78,14 @@
         animation-iteration-count: 1;
 }
 
-.conteudo {
+
+.ativo {
     width: 100%;
     height: 100%;
     background-color: blueviolet;
+    display: flex;
+
+}
+.desativado{
+    display: none;
 }
